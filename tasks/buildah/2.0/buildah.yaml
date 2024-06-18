@@ -435,12 +435,12 @@ spec:
         INSECURE=true
       fi
 
-      cosign attach sbom \
-        --sbom=sbom-cyclonedx.json \
-        --type=cyclonedx \
-        --allow-http-registry=$INSECURE \
-        --allow-insecure-registry=$INSECURE \
-        $IMAGE
+      #cosign attach sbom \
+      #  --sbom=sbom-cyclonedx.json \
+      #  --type=cyclonedx \
+      #  --allow-http-registry=$INSECURE \
+      #  --allow-insecure-registry=$INSECURE \
+      #  $IMAGE
     workingDir: $(workspaces.source.path)
 
   volumes:
