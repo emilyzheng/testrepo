@@ -24,7 +24,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/rh-cdqe/emilyzheng-tenant/testrepo-e5bba:on-pr-{{revision}}
+    value: 10.0.150.234/rh-cdqe/emilyzheng-tenant/testrepo-e5bba:on-pr-{{revision}}
   - name: image-expires-after
     value: 5d
   - name: dockerfile
